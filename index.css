@@ -1,0 +1,15 @@
+*,::before, ::after{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+html{
+  font-size:16px;
+}
+:root{
+  --primary-1:hsl(171, 66%, 44%); /* Strong cyan */
+  --primary-2:hsl(233, 100%, 69%); /*Light blue */
+  --neutral-1: hsl(210, 10%, 33%); /*Dark grayish blue */
+  --neutral-2:hsl(201, 11%, 66%);  /*Grayish blue */
+  --fontFamily:"Bai Jamjuree", sans-serif;
+}
