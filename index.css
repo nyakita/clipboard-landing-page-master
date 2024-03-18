@@ -42,7 +42,7 @@ header{
 .green{
   background:var(--primary-1);
   color:#fff;
-  width:70%;
+  max-width:70%;
   margin-bottom:1rem;
   margin-top:1rem;
   padding:.7rem;
@@ -55,7 +55,7 @@ header{
 .blue{
   background:var(--primary-2);
   color:#fff;
-  width:70%;
+  max-width:70%;
   padding:.7rem;
   margin-bottom:3.5rem;
   border-radius:1rem;
@@ -136,4 +136,32 @@ ul a{
 ul a:hover{
   color:var(--primary-1);
   font-weight:700;
+}
+
+@media only screen and (min-width:376px){
+  .buttons{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    margin:0 auto;
+  }
+  .green, .blue{
+    margin:1rem 1rem;
+    width:100%;
+    max-width:200px;
+  }
+  .wrapper{
+    display:grid;
+    grid-template-columns:;
+    border:2px solid red;
+    max-width:1000px;
+    width:100%;
+
+  }
+  .section-1{
+    font-weight:200;
+  }
+  
+
 }
